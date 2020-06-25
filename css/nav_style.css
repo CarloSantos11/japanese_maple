@@ -1,5 +1,9 @@
 body {
   background: url("https://i.pinimg.com/originals/8d/f7/d3/8df7d3dba5d2fc5a33f594132acc0424.jpg") no-repeat center center fixed;
+  color: white;
+  /* padding: 8px; */
+  margin: 0; 
+  padding: 0;
 }
 
 ul {
@@ -29,4 +33,20 @@ li a:hover:not(.active) {
 .active {
   background-color: #5e0000;
   color: white;
+}
+
+
+.content {
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 0;
+  position: absolute;
+  bottom: 0;
+  /* margin: auto; */
+}
+
+.padding {
+  padding: 35px;
 }
